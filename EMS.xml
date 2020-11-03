@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="EMS.xsl"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EMS.xsd">
+<Employee ID="D101">
+    <empname>Anita</empname>
+	<empage>50</empage>
+    <empsalary>50000</empsalary>
+    <empemail>anita123@gmail.com</empemail>
+    <empphone>9656274790</empphone>
+    <empdesignation>Developer</empdesignation>
+</Employee>
+
+<Employee ID="A102">
+	<empname>Ravi</empname>
+	<empage>51</empage>
+	<empsalary>112000</empsalary>
+	<empemail>ravi663@gmail.com</empemail>
+	<empphone>8823602721</empphone>
+	<empdesignation>Associate Project Manager</empdesignation>
+  </Employee>
+  
+  <Employee ID="T103">
+    <empname>Nitya</empname>
+	<empage>30</empage>
+    <empsalary>60000</empsalary>
+    <empemail>nitya2657@gmail.com</empemail>
+    <empphone>8236329820</empphone>
+    <empdesignation>Team Leader</empdesignation>
+  </Employee>
+  
+  <Employee ID="M104">
+    <empname>Deeksha</empname>
+	<empage>41</empage>
+    <empsalary>150000</empsalary>
+    <empemail>mddeeksha@gmail.com</empemail>
+    <empphone>8535430166</empphone>
+    <empdesignation>Manager</empdesignation>
+  </Employee>
+</Company>

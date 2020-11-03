@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Company" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Company" msdata:IsDataSet="true" msdata:Locale="en-US">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Employee">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="empname" type="xs:string" minOccurs="0" />
+              <xs:element name="empage" type="xs:integer" minOccurs="0" />
+              <xs:element name="empsalary" type="MySalary" minOccurs="0" />
+              <xs:element name="empemail" type="xs:string" minOccurs="0" />
+              <xs:element name="empphone" type="xs:integer" minOccurs="0" />
+              <xs:element name="empdesignation" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="MySalary">
+  <xs:restriction base="xs:integer">
+  <xs:maxExclusive value="200000"></xs:maxExclusive>
+  <xs:minExclusive value="50000"></xs:minExclusive>
+  </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
